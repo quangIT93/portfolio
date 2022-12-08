@@ -67,7 +67,6 @@ section {
   text-align: center;
 }
 
-
 .header .user img {
   margin: 1rem 0;
   border: 1rem solid transparent;
@@ -171,7 +170,6 @@ section {
   height: 50%;
   width: 100%;
   clip-path: circle(10%);
-
 }
 
 .home::after {
@@ -184,10 +182,7 @@ section {
   height: 100%;
   width: 30%;
   clip-path: circle(20%);
-
 }
-
-
 
 /* content title - tiêu đề nội dung*/
 .home .content h3 {
@@ -328,28 +323,27 @@ section {
 }
 
 .about .row-below .skill .bar-1-1 span {
-  width: 70%;
+  width: 100%;
 }
 
-
 .about .row-below .skill .bar-1-2 span {
-  width: 70%;
+  width: 100%;
 }
 
 .about .row-below .skill .bar-1-3 span {
-  width: 50%;
+  width: 100%;
 }
 
 .about .row-below .skill .bar-2-1 span {
-  width: 50%;
+  width: 100%;
 }
 
 .about .row-below .skill .bar-2-2 span {
-  width: 50%;
+  width: 100%;
 }
 
 .about .row-below .skill .bar-2-3 span {
-  width: 50%;
+  width: 100%;
 }
 
 /* -------------------------------------------------------------------------------------- */
@@ -444,7 +438,7 @@ section {
   display: grid;
   place-items: center;
   transform: scale(0);
-} 
+}
 
 .portfolio .box-container .box:hover .content {
   transform: scale(1);
